@@ -6,10 +6,7 @@ export default function DisplayModeWiki({ name, resource, theme, topicName }) {
       <div className="flex flex-row">
         <div className="avatar">
           <div className="w-14 rounded-full px-2 py-2">
-            <img
-              src={import.meta.resolve(`../assets/images/${name}.png`)}
-              alt={`${name}-logo`}
-            />
+            <img src={`/assets/images/${name}.png`} alt={`${name}-logo`} />
           </div>
         </div>
         <div className="flex flex-col justify-around pl-2 my-1">
